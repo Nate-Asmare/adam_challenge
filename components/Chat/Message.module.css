@@ -1,0 +1,31 @@
+.container {
+  box-shadow: none;
+  padding: 10px;
+  border-radius: 13px;
+  width: 80%;
+  margin: 5px 0;
+}
+
+.sender {
+  background-color: #1876d2;
+  color: white;
+  align-self: flex-end;
+}
+
+.receiver {
+  border: 1px solid rgb(202, 202, 202);
+}
+
+.time {
+  color: gray;
+}
+
+.sent-time {
+  align-self: flex-end;
+  margin-right: 15px;
+}
+
+.received-time {
+  align-self: flex-start;
+  margin-left: 15px;
+}
