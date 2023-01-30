@@ -22,14 +22,16 @@ const Chat = () => {
   const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const currentTime = new Date();
+    if (inputValue !== "") {
+      const currentTime = new Date();
 
-    setMessages((prevMessages: Message[]) => [
-      ...prevMessages,
-      { text: inputValue, time: currentTime },
-    ]);
+      setMessages((prevMessages: Message[]) => [
+        ...prevMessages,
+        { text: inputValue, time: currentTime },
+      ]);
 
-    setInputValue("");
+      setInputValue("");
+    }
   };
 
   return (
