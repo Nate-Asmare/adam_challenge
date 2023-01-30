@@ -1,0 +1,32 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container form {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.input {
+  width: 70%;
+}
+
+.input fieldset {
+  border-radius: 10px;
+}
+
+.button {
+  height: 50px;
+  text-transform: none;
+  border-radius: 13px;
+}
